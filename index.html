@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testjQuery</title>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/all.js"></script>
+</head>
+<style>
+    /*
+      把.text裡有包含.active的東東套用效果  
+    */
+    .text.active {
+        opacity: 1;
+    }
+    .text {
+        opacity:0;
+        transition: all 3s;
+    }
+</style>
+
+<body>
+    <input type="button" class="button" value="留言">
+    <div class="text">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="送出">
+    </div>
+
+</body>
+
+</html>
