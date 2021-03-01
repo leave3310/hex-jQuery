@@ -1,5 +1,7 @@
 $(document).ready(function () {
-    $('.start').click(function (e) { 
-        $('.box').slideUp(1000).slideDown(1000);
+    $('.dropdown').click(function (e) { 
+        e.preventDefault();
+        $('.dropdown').toggleClass('active');
+        $('.dropdown-open').slideToggle();
     });
 });
