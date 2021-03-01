@@ -1,14 +1,37 @@
-.box1, .box2, .box3{
-    width: 100px;
-    height: 100px;
-    display: none;
+.wrap{
+    width: 500px;
+    margin: 0 auto;
 }
-.box1{
-    background: black;
-}
-.box2{
+.header{
     background: pink;
+    padding-bottom: 56px;
 }
-.box3{
-    background: red;
+.menu{
+    float: right;
+}
+.menu li{
+    float: left;
+}
+.menu a{
+    display: block;
+    width: 30px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 16px;
+    padding: .5em;
+}
+.menu a:hover{
+    background: blue;
+}
+.content p{
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
