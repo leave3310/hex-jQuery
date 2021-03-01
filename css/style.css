@@ -1,35 +1,14 @@
-.wrap{
-    width: 500px;
-    margin: 0 auto;
-}
-.header{
-    height: 80px;
-    background: pink;
-}
-.menu{
-    float: right;
-}
-.menu a{
-    text-decoration: none;
-    background: white;
-    border: 1px solid gray;
-    text-align: center;
-    padding: .5em;
-    display: block;
-    /* transition: all .3s; */
-}
-.menu > li{
-    float: left;
+.box1, .box2, .box3{
     width: 100px;
-}
-.menu a:hover, .menu a.active{
-    background: blue;
-    color: white;
-}
-.menu ul{
+    height: 100px;
     display: none;
 }
-/* .menu > li:hover ul{
-    display: block;
-} */
-
+.box1{
+    background: black;
+}
+.box2{
+    background: pink;
+}
+.box3{
+    background: red;
+}
