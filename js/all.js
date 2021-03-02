@@ -17,4 +17,10 @@ $(document).ready(function () {
         e.preventDefault()
         $('.content p').css('font-size', '13px')
     })
+
+    //關掉廣告
+    $('.ad-close').click(function (e) { 
+        e.preventDefault()
+        $('.ad').fadeOut()
+    })
 });

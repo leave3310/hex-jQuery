@@ -35,3 +35,24 @@
     display: block;
     clear: both;
 }
+.ad{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: black;
+    width: 250px;
+    height: 100px;
+    color: white;
+}
+.ad p{
+    padding: 30px;
+}
+.ad .ad-close{
+    background: red;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .5em;
+}
