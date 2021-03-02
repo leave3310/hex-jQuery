@@ -1,58 +1,8 @@
-.wrap{
-    width: 500px;
-    margin: 0 auto;
-}
-.header{
-    background: pink;
-    padding-bottom: 56px;
-}
-.menu{
-    float: right;
-}
-.menu li{
-    float: left;
-}
-.menu a{
-    display: block;
-    width: 30px;
-    text-decoration: none;
-    color: white;
+.box{
+    width: 200px;
+    height: 200px;
     background: black;
-    text-align: center;
-    font-size: 16px;
-    padding: .5em;
 }
-.menu a:hover{
-    background: blue;
-}
-.content p{
-    line-height: 1.5;
-    font-size: 16px;
-    margin-bottom: 2em;
-}
-.clearfix::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.ad{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background: black;
-    width: 250px;
-    height: 100px;
-    color: white;
-}
-.ad p{
-    padding: 30px;
-}
-.ad .ad-close{
-    background: red;
-    text-decoration: none;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: .5em;
+body{
+    padding: 10px;
 }
