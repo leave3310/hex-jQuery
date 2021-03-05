@@ -1,8 +1,28 @@
-.box{
-    width: 200px;
-    height: 200px;
-    background: black;
+.container{
+    position: relative;
 }
-body{
-    padding: 10px;
+.main{
+    width: 100%;
+    height: 300px;
+    background: black;
+    transition: 0.3s ease;
+}
+.header{
+    height: 50px;
+    background: red;
+}
+.aside{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 270px;
+    height: 100%;
+    transform: translateX(-270px);
+    background: yellow;
+}
+.open .main{
+    transform: translateX(270px);
+}
+.open .aside{
+    transform: translateX(0px);
 }

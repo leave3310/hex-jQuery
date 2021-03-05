@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $('.start').click(function (e) { 
+    $('.header').click(function (e) { 
         e.preventDefault()
-        $('.box').stop().slideToggle(1000)
+        $('.container').toggleClass("open")
     })
 });
