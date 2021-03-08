@@ -1,33 +1,13 @@
-.container{
-    position: relative;
+.menu{
+    width: 500px;
+    margin: 20px auto;
 }
-.main{
-    width: 100%;
-    height: 300px;
-    background: black;
-    transition: 0.3s ease;
+.menu li{
+    padding: 5px;
+    border: 1px solid;
+    margin-bottom: 0.5em;
 }
-.header{
-    height: 50px;
-    background: red;
-}
-.aside{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 270px;
-    height: 100%;
-    transform: translateX(-270px);
-    background: yellow;
-}
-.open .main{
-    transform: translateX(270px);
-}
-.open .aside{
-    transform: translateX(0px);
-}
-.box{
-    width: 200px;
-    height: 200px;
-    background: black;
+.menu li:hover, .menu li.active{
+    background: blue;
+    color: white;
 }
