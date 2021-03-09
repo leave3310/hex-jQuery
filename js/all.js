@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    $('.addCart').click(function (e) { 
-        e.preventDefault();
-        $(this).parent().toggleClass('active');
+    $('.menu li').click(function (e) { 
+        $(this).addClass('active').siblings().removeClass('active');        
     });
 });
