@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $('.menu li').click(function (e) { 
+    $('.addCart').click(function (e) { 
         e.preventDefault();
-        $(this).toggleClass('active');
+        $(this).parent().toggleClass('active');
     });
 });

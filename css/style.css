@@ -1,13 +1,27 @@
-.menu{
-    width: 500px;
+.cart{
+    width: 300px;
     margin: 20px auto;
 }
-.menu li{
-    padding: 5px;
-    border: 1px solid;
-    margin-bottom: 0.5em;
+.cart h2{
+    margin-bottom: 1em;
+    font-size: 19px;
 }
-.menu li:hover, .menu li.active{
+.cart li{
+    border: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 2em;
+}
+.cart li.active{
     background: blue;
     color: white;
+}
+.addCart{
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.addCart:hover{
+    background: blueviolet;
 }
