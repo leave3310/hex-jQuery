@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    $('.menu li').click(function (e) { 
-        $(this).addClass('active').siblings().removeClass('active');        
+    $('.cart li').click(function (e) { 
+
+        $(this).find('h3').toggleClass('active');
     });
 });

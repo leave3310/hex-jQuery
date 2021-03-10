@@ -1,14 +1,16 @@
-.menu{
+.cart{
     width: 500px;
     margin: 20px auto;
 }
-.menu li{
+.cart li{
+    width: 30%;
+    float: left;
+    height: 100px;
+    margin: 1%;
     border: 1px solid black;
-    padding: 5px;
-    margin-bottom: 1em;
-}
-.menu li:hover, .menu li.active{
-    background: blueviolet;
-    color: white;
     cursor: pointer;
+}
+.cart h3.active{
+    background: blue;
+    color: white;
 }
