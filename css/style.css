@@ -1,16 +1,16 @@
-.cart{
+.question-list{
     width: 500px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
-.cart li{
-    width: 30%;
-    float: left;
-    height: 100px;
-    margin: 1%;
+.question h3{
     border: 1px solid black;
-    cursor: pointer;
+    padding: 5px;
 }
-.cart h3.active{
+.question h3:hover, .question h3.active{
     background: blue;
     color: white;
+}
+.question p{
+    display: none;
+    padding: 5px;
 }
