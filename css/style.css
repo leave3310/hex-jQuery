@@ -1,16 +1,24 @@
-.question-list{
-    width: 500px;
+.cart{
     margin: 0 auto;
+    width: 500px;
 }
-.question h3{
+.cart > li{
+    margin-bottom: 1em;
+}
+.cart > li > a{
+    color: blue;
+    font-size: 16px;
     border: 1px solid black;
+    display: block;
     padding: 5px;
 }
-.question h3:hover, .question h3.active{
+.cart > li > a:hover{
     background: blue;
     color: white;
 }
-.question p{
+.cart > li li{
+    margin: 5px;
+}
+.cart ul{
     display: none;
-    padding: 5px;
 }
