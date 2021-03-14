@@ -1,3 +1,5 @@
 $(document).ready(function () {
-    $('.box img').attr('width', '500');
+    $('.remove').click(function (e) { 
+        $(this).parent().parent().remove();
+    });
 });

@@ -1,0 +1,7 @@
+.wrap{
+    margin: 0 auto;
+    width: 300px;
+}
+td{
+    border: 1px solid black;
+}
