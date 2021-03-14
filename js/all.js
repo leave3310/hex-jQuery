@@ -1,9 +1,4 @@
 $(document).ready(function () {
-    $('.cart > li > a').click(function (e) { 
-        e.preventDefault();
-        
-        $(this).parent().siblings().find('ul').slideUp();
-        $(this).parent().find('ul').slideToggle();
-
-    });
+    $('.box').text('你看不到我');
+    $('.test').html('<h1>你看到我了</h1>');
 });
