@@ -4,8 +4,9 @@ $(document).ready(function () {
             scrollTop: 0
         }, 1000)
     });
-    $('.togglemenu').parent().click(function (e) { 
+    $('.toolbar-a').click(function (e) { 
         e.preventDefault();
-        $(this)..toggleClass()
+        $(this).siblings('.togglemenu').slideToggle();
+        $(this).parent().siblings().find('.togglemenu').slideUp();
     });
 });
